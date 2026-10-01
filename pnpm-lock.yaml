@@ -107,7 +107,7 @@ importers:
         version: 3.7.2
       moment:
         specifier: ^2.29.1
-        version: 2.30.1
+        version: 2.31.0
       rxjs:
         specifier: 'catalog:'
         version: 6.6.7
@@ -742,6 +742,7 @@ packages:
   '@angular-devkit/build-angular@22.2.0-next.6':
     resolution: {integrity: sha512-x4VXxhG0n811GpMLpzK1QR3UsKEjB/G4M10nyoEZUWAF2t/hSOp/ZuE4rweKCKrQMB+n14W6X3G4YWqptWmLIw==}
     engines: {node: ^22.22.3 || ^24.15.0 || >=26.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
+    deprecated: Angular's Webpack support is deprecated. Use the esbuild and Vite-based "@angular/build" package instead.
     peerDependencies:
       '@angular/compiler-cli': ^22.0.0 || ^22.2.0-next.0
       '@angular/core': ^22.0.0 || ^22.2.0-next.0
@@ -914,6 +915,7 @@ packages:
   '@angular/platform-browser-dynamic@22.2.0-next.5':
     resolution: {integrity: sha512-NHTLabHbvmwFEVUiscg5WER6rkCLmdorgVqyPT3MqqpMfs+Jpz6p7ZvHzfK6Kl2nyun7DUdfgP8UIgp4P8ScLw==}
     engines: {node: ^22.22.3 || ^24.15.0 || >=26.0.0}
+    deprecated: '@angular/platform-browser-dynamic is deprecated. Use `@angular/platform-browser` instead.'
     peerDependencies:
       '@angular/common': 22.2.0-next.5
       '@angular/compiler': 22.2.0-next.5
@@ -2748,6 +2750,7 @@ packages:
   '@ngtools/webpack@22.2.0-next.6':
     resolution: {integrity: sha512-Gmc1y0pw/8uvraiZSZ+b86K2EYQb+aFJV/UYU0VWcYq7PUJO5Le40+JzWk27jNEvLS444tG8zGuI5NSXKoaQtQ==}
     engines: {node: ^22.22.3 || ^24.15.0 || >=26.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
+    deprecated: Angular's Webpack support is deprecated. Use the esbuild and Vite-based "@angular/build" package instead.
     peerDependencies:
       '@angular/compiler-cli': ^22.0.0 || ^22.2.0-next.0
       typescript: 6.0.2
@@ -7175,8 +7178,8 @@ packages:
   module-details-from-path@1.0.4:
     resolution: {integrity: sha512-EGWKgxALGMgzvxYF1UyGTy0HXX/2vHLkw6+NvDKW2jypWbHpjQuj4UMcqQWXHERJhVGKikolT06G3bcKe4fi7w==}
 
-  moment@2.30.1:
-    resolution: {integrity: sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==}
+  moment@2.31.0:
+    resolution: {integrity: sha512-0acOTfMiWOheYS4eoWb80yYMb/JLvVv9SHbs2PehaDzfUG0Bw855SKyk0IKTnPGa5+U2bmi3W68l1+sGLX/pvw==}
 
   moo@0.5.3:
     resolution: {integrity: sha512-m2fmM2dDm7GZQsY7KK2cme8agi+AAljILjQnof7p1ZMDe6dQ4bdnSMx0cPppudoeNv5hEFQirN6u+O4fDE0IWA==}
@@ -8955,6 +8958,9 @@ packages:
 
   third-party-web@0.29.2:
     resolution: {integrity: sha512-fegtha91tq2DHphyoiBXVHjVi2YG9zFaRnboT9C28tO1en9Y3wJsfspuy40F+u5wl3hHVbw7cnd1b67kEGHb8g==}
+
+  third-party-web@0.30.0:
+    resolution: {integrity: sha512-p+PfyL5U0ediGzvwPzMSdD9MnC8rHW6nWJJVLIQvqN7RsSqfaZ+7n4c9GILqH36EYR0eXB9CzAeCRnKFr/9uJg==}
 
   through2@2.0.5:
     resolution: {integrity: sha512-/mrRod8xqpA+IHSLyGCQ2s8SPHiCDEeQJSep1jqLYeEUClOFG2Qsh+4FU6G9VeqpZnGW/Su8LQGc4YKni5rYSQ==}
@@ -12522,7 +12528,7 @@ snapshots:
   '@paulirish/trace_engine@0.0.65':
     dependencies:
       legacy-javascript: 0.0.1
-      third-party-web: 0.29.2
+      third-party-web: 0.30.0
 
   '@peculiar/asn1-cms@2.9.4':
     dependencies:
@@ -16934,7 +16940,7 @@ snapshots:
 
   module-details-from-path@1.0.4: {}
 
-  moment@2.30.1: {}
+  moment@2.31.0: {}
 
   moo@0.5.3: {}
 
@@ -19055,6 +19061,8 @@ snapshots:
       tslib: 2.8.1
 
   third-party-web@0.29.2: {}
+
+  third-party-web@0.30.0: {}
 
   through2@2.0.5:
     dependencies:
