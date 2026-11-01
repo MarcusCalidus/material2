@@ -132,7 +132,7 @@ importers:
         version: 22.2.0-next.5(@angular/compiler-cli@22.2.0-next.5(@angular/compiler@22.2.0-next.5)(typescript@6.0.2))(@angular/compiler@22.2.0-next.5)
       '@angular/ng-dev':
         specifier: https://github.com/angular/dev-infra-private-ng-dev-builds.git#dd47442d110ac5cbafc687a19696693fe5ddf370
-        version: https://codeload.github.com/angular/dev-infra-private-ng-dev-builds/tar.gz/dd47442d110ac5cbafc687a19696693fe5ddf370(@modelcontextprotocol/sdk@1.30.0(supports-color@11.0.0))
+        version: https://codeload.github.com/angular/dev-infra-private-ng-dev-builds/tar.gz/dd47442d110ac5cbafc687a19696693fe5ddf370(@modelcontextprotocol/sdk@1.32.2(supports-color@11.0.0))
       '@angular/platform-server':
         specifier: 'catalog:'
         version: 22.2.0-next.5(@angular/common@22.2.0-next.5(@angular/compiler-cli@22.2.0-next.5(@angular/compiler@22.2.0-next.5)(typescript@6.0.2))(@angular/core@22.2.0-next.5(@angular/compiler@22.2.0-next.5)(rxjs@6.6.7)(zone.js@0.16.2))(rxjs@6.6.7))(@angular/compiler-cli@22.2.0-next.5(@angular/compiler@22.2.0-next.5)(typescript@6.0.2))(@angular/compiler@22.2.0-next.5)(@angular/core@22.2.0-next.5(@angular/compiler@22.2.0-next.5)(rxjs@6.6.7)(zone.js@0.16.2))(@angular/platform-browser@22.2.0-next.5(@angular/common@22.2.0-next.5(@angular/compiler-cli@22.2.0-next.5(@angular/compiler@22.2.0-next.5)(typescript@6.0.2))(@angular/core@22.2.0-next.5(@angular/compiler@22.2.0-next.5)(rxjs@6.6.7)(zone.js@0.16.2))(rxjs@6.6.7))(@angular/compiler-cli@22.2.0-next.5(@angular/compiler@22.2.0-next.5)(typescript@6.0.2))(@angular/core@22.2.0-next.5(@angular/compiler@22.2.0-next.5)(rxjs@6.6.7)(zone.js@0.16.2)))(rxjs@6.6.7)
@@ -2578,8 +2578,8 @@ packages:
     resolution: {integrity: sha512-pJCEwGG7Lfr/+PQp9ZTwKXNeO5wzbfKL7H3MYpCorM4oFBoQrdjnBgEoqG+RjhsvS1FKrDbKux+M1HhlnGWqcA==}
     engines: {node: '>=20'}
 
-  '@modelcontextprotocol/sdk@1.30.0':
-    resolution: {integrity: sha512-xKd8OIzlqNzcqcNumGAa6g+PW2kjD5vrpcKOnfldAUPP3j7lnqMPwlTXQm8gF+UwH72z0lqaRbjr9hqGz0eITA==}
+  '@modelcontextprotocol/sdk@1.32.2':
+    resolution: {integrity: sha512-SWsVtH/0vULSQStoZ6xxH2K09Li8fXYTMC64ZeogCdpZ3XSi1eCPOByV1OpuJxuI3OcmHhosDWYyii07tpPsLw==}
     engines: {node: '>=18'}
     peerDependencies:
       '@cfworker/json-schema': ^4.1.1
@@ -10076,12 +10076,12 @@ snapshots:
       tinyglobby: 0.2.17
       yargs: 18.1.0
 
-  '@angular/ng-dev@https://codeload.github.com/angular/dev-infra-private-ng-dev-builds/tar.gz/dd47442d110ac5cbafc687a19696693fe5ddf370(@modelcontextprotocol/sdk@1.30.0(supports-color@11.0.0))':
+  '@angular/ng-dev@https://codeload.github.com/angular/dev-infra-private-ng-dev-builds/tar.gz/dd47442d110ac5cbafc687a19696693fe5ddf370(@modelcontextprotocol/sdk@1.32.2(supports-color@11.0.0))':
     dependencies:
       '@actions/core': 3.0.1
       '@conventional-changelog/git-client': 3.1.2(conventional-commits-filter@6.0.1)(conventional-commits-parser@7.1.2)
       '@google-cloud/spanner': 8.0.0(supports-color@11.0.0)
-      '@google/genai': 2.20.0(@modelcontextprotocol/sdk@1.30.0(supports-color@11.0.0))(bufferutil@4.1.0)(supports-color@11.0.0)(utf-8-validate@6.0.6)
+      '@google/genai': 2.20.0(@modelcontextprotocol/sdk@1.32.2(supports-color@11.0.0))(bufferutil@4.1.0)(supports-color@11.0.0)(utf-8-validate@6.0.6)
       '@inquirer/prompts': 8.7.0(@types/node@24.13.3)
       '@inquirer/type': 4.1.0(@types/node@24.13.3)
       '@octokit/auth-app': 8.3.1
@@ -11431,14 +11431,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@google/genai@2.20.0(@modelcontextprotocol/sdk@1.30.0(supports-color@11.0.0))(bufferutil@4.1.0)(supports-color@11.0.0)(utf-8-validate@6.0.6)':
+  '@google/genai@2.20.0(@modelcontextprotocol/sdk@1.32.2(supports-color@11.0.0))(bufferutil@4.1.0)(supports-color@11.0.0)(utf-8-validate@6.0.6)':
     dependencies:
       google-auth-library: 10.9.1(supports-color@11.0.0)
       p-retry: 4.6.2
       protobufjs: 8.8.0
       ws: 8.21.3(bufferutil@4.1.0)(utf-8-validate@6.0.6)
     optionalDependencies:
-      '@modelcontextprotocol/sdk': 1.30.0(supports-color@11.0.0)
+      '@modelcontextprotocol/sdk': 1.32.2(supports-color@11.0.0)
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -12066,7 +12066,7 @@ snapshots:
     dependencies:
       zod: 4.5.4
 
-  '@modelcontextprotocol/sdk@1.30.0(supports-color@11.0.0)':
+  '@modelcontextprotocol/sdk@1.32.2(supports-color@11.0.0)':
     dependencies:
       '@hono/node-server': 2.1.1(hono@4.13.5)
       ajv: 8.20.0
@@ -14991,7 +14991,7 @@ snapshots:
       '@google-cloud/cloud-sql-connector': 1.11.3(supports-color@11.0.0)
       '@google-cloud/pubsub': 5.3.1(supports-color@11.0.0)
       '@inquirer/prompts': 7.10.1(@types/node@22.20.1)
-      '@modelcontextprotocol/sdk': 1.30.0(supports-color@11.0.0)
+      '@modelcontextprotocol/sdk': 1.32.2(supports-color@11.0.0)
       abort-controller: 3.0.0
       ajv: 8.20.0
       ajv-formats: 3.0.1
